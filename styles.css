@@ -65,6 +65,7 @@
     text-decoration: none;
   }
 
+
    /*************** Header Rules ****************/
 
    .head {
@@ -72,12 +73,12 @@
     background-color: rgba(166,216,190,255);
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
-    flex 1;
+    padding: 0 130px;
    }
 
    .head > img {
     width: 100px;
+    border-radius: 50px;
    }
 
    .head > ul {
@@ -88,6 +89,8 @@
 
    .head > ul > li > a {
     color: white;
+    font-size: large;
+    font-weight: bold;
    }
 
    /*************** Hero Section ****************/
@@ -96,10 +99,104 @@
     background-color: rgba(166,216,190,255);
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 50px 100px;
-    gap: 20px;
+    width: 100%;
    }
+
+   .hero-section-container {
+    display: flex;
+    flex: 1;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    gap: 100px;
+   }
+
+   .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   }
+
+   .left-column > h1,
+   .left-column > p {
+    color: white;
+   }
+  
+   .left-column > h1 {
+    font-size: 62px;
+    font-weight: bolder;
+    line-height: 62px;
+   }
+
+   .left-column > p {
+    font-size: 22px;
+   }
+
+   
+
+   .right-column > img {
+    border-radius: 15px;
+    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.1);
+   }
+
+   .hero-button {
+    background-color: blue;
+    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 130px;
+   }
+
+   /*************** Info Section ****************/
+
+   .information {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     padding: 70px 20px;
+     text-align: center;
+   }
+
+   .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+    flex-wrap: wrap;
+   }
+   
+   .info-cards,
+   .cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+   }
+
+   .info-cards {
+    gap: 40px;
+    flex-shrink: 450px;
+    justify-content:flex-start;
+    
+   }
+
+   
+   .cards {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+   }
+
+   .cards > p {
+    padding: 15px 15px 60px 10px;
+   }
+  
 
    
 
