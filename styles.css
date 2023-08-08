@@ -226,3 +226,31 @@
 }
 
 /*************** quote Section ****************/
+
+.cta {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-info {
+  background-color: rgba(41, 80, 255, 0.767);
+  border-radius: 15px;
+  display: flex;
+  gap: 100px;
+  height: 150px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.cta-button {
+  border: white 3px solid;
+  border-radius: 7px;
+  padding: 8px 20px;
+}
+.cta-button a {
+  color: white;
+}
